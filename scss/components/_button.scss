@@ -1,0 +1,11 @@
+@use '../custom'as *;
+
+.menu {
+    button.btn {
+        line-height: 1.6;
+
+        &:hover {
+            background-color: $primary !important;
+        }
+    }
+}

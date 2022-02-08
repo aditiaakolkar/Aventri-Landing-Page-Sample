@@ -1,0 +1,35 @@
+@use '../custom'as *;
+
+.speakers_btn {
+    .btn {
+        border-width: 2px;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+
+        &:hover {
+            color: $primary;
+            box-shadow: 0 3px 6px rgba($black, 70%);
+        }
+    }
+}
+
+footer.footer_wrapper {
+    ul.nav {
+        a {
+            transition: background .2s ease-in-out;
+            -webkit-transition: background .2s ease-in-out;
+            -moz-transition: background .2s ease-in-out;
+            -ms-transition: background .2s ease-in-out;
+            -o-transition: background .2s ease-in-out;
+
+            &:hover {
+                background: $secondary;
+                border-color: $secondary;
+                box-shadow: 0 -3px 6px rgba($black, 70%);
+            }
+        }
+    }
+}
